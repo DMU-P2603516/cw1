@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>The Invisible Man</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <!-- I have inserted a meta element that allows the page to be mobile-friendly and also linked the page to a css file for aesthetic modifications.-->
+  <body>
+    <article> <!-- I am placing all the content on the webpage in an article so that I can easily change the color and background image of the webpage.-->
+      <header id="header">
+        <h1> THE INVISIBLE MAN </h1>
+          <nav id="navigation">
+            <a class="anchor-nav" href="home.html"> HOME </a>
+            <a class="anchor-nav" href="cast.html"> CAST </a>
+          </nav>
+      </header>
+
+      <!-- In the header, I've placed the navigation pages and linked them to their respective destinations via an anchor element.
+      I will put all anchor elements in the same class as I want them to have the same look! Not to forget the heading is included in the header. -->
+
+      <!-- Next up is going to be the first section of the webpage. By using sematic elements, I am going to place all elements that have a relationship
+      with the synopsis in the a section element and give them a unique ID as there's only going to be one synopsis section on the page. -->
+
+    <section id="synopsis">
+          <h2> SYNOPSIS </h2>
+          <img class="float-image" src="image/movie art.jpg" alt="Image of Movie art" style="max-width: 100%">
+          <p> Cecilia Kass is trapped in an abusive and violent relationship with a wealthy optics engineer and businessman named Adrian Griffin.
+            One night, Cecilia drugs Adrian and makes her escape out of his highly secured home with the assistance of her sister, Emily.
+          </p>
+          <p> Cecilia seeks shelter at the house of his acquaintance, Detective James Lanier and his teenage daughter, Sydney.
+            Two weeks after Cecilia's escape, Adrian commits suicide and leaves Cecilia 5 million dollars in his trust.
+            Adrian’s lawyer and also brother, Tom, handles the arrangements. Cecilia suspects another presence in the house after several strange,
+            lethal and life-threatening events and calls James, who assures her she is just traumatized.
+          </p>
+          <p> Cecilia believes that Adrian faked his death and that he is using his optics expertise to become invisible in order to torment her.
+            She then works on how to prove that she’s being haunted by someone she can’t see.
+          </p>
+          <p>
+            Synopsis by <a class="anchor" href="https://en.wikipedia.org/wiki/The_Invisible_Man_(2020_film)"> Wikipedia </a>
+          </p>
+      </section>
+
+      <!--As we can see above, I placed all images, and this will be noticed in the cast page as well, in a class and named them "float-image" because I'll be using
+        the float element to allign the image next to the text. This will ensure, I use my available space effectively and improve the overall aesthetic of the page.
+        As mentioned above (line 20), I placed all anchor elements in this section into a class. They will have the same appearance as the others.-->
+
+      <!-- Next up is going to be the second section of the webpage. By using sematic elements, I am going to place all elements that have a relationship
+          with the trailer in the a section element and give them a unique ID as there's only going to be one trailer section on the page. -->
+
+      <section id="trailer">
+          <h2> MOVIE TRAILER </h2>
+          <p>The following clip is the official trailer of <a class="anchor" href="https://www.imdb.com/title/tt1051906/?ref_=rvi_tt"> The Invisble Man</a>
+          </p>
+        <div class="video-trailer">
+            <video controls style="max-width: 100%" poster="image/trailer image.jpg">
+              <source src="video/Movie trailer.mp4" type="video/mp4">
+              <source src="video/Movie trailer.ogv" type="video/ogv">
+              <source src="video/Movie trailer.webm" type="video/webm">
+            </video>
+          </div>
+          <p>Your browser does not support the video element. Please click <a class="anchor" href='video/Movie trailer.mp4'>here</a> to download an mp4 of the video.
+          </p>
+      </section>
+
+      <!-- We can see from above that I inserted the anchor element into an anchor class as I said I would. I also inserted the video element/clip into a div element.
+          I don't fully understand how to use a div element but I know it is used to differentiate other elements from one another. I used the div because I want to
+          be able to freely adjust the trailer without it impacting the entire trailer section.-->
+
+        <p>To find out about the cast, press <a class="anchor" href="#navigation"> here </a> to go to the navigation bar on top and press on cast.
+        </p>
+      </article>
+      <footer>
+        <p> Page created by Shadrack Addison | P2603516 </p>
+      </footer>
+
+      <!-- The first page is completed with the close of the article (line 10-72) and with the footer. I also inserted an anchor element in a p element where
+          I direct the visitors back to the navigation bar on top. This method is called "linking within a page". Now we move to the cast page.-->
+
+  </body>
+</html>
