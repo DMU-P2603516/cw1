@@ -2,6 +2,7 @@ body{
   background-image: url("../image/movie background.jpg");
   background-size: 25% 25%;
   background-repeat: round;
+  size: 100%;
   font-family: Cambria, Calibri, Arial;
   color: orange;
 }
