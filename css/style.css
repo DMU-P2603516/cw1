@@ -1,0 +1,109 @@
+body{
+  background-image: url("../image/movie background.jpg");
+  background-size: 25% 25%;
+  background-repeat: round;
+  font-family: Cambria, Calibri, Arial;
+  color: orange;
+}
+
+/* For the entire page, I wanted to have a background image of the movie. The final product was edited using Photoshop.
+  As for font choise, I decided to use my favourite font as primary, I then decided to have the most available fonts as
+  second options. The overall text color of the page is orange as I thought it worked best for the movie. I placed it there
+  as a contigency in case I forgot to insert a font color. */
+
+#header {
+  background-image: url("../image/movie poster1.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+/* For the header, I wanted to have a unique background image, so I took the movie poster and with Photoshop, removed the title
+  as it would be replaced with the heading element. I ensure it was centered and that the background image kept it's size regardless
+  of the display resolution it was viewed on. */
+
+#navigation{
+  font-size: 30px;
+  margin: 50px;
+}
+
+.anchor-nav {
+  color: rgb(0, 201, 255);
+  margin: 50px
+}
+
+.anchor {
+  color: rgb(0, 201, 255);
+}
+
+/* I decided to have all the navgation element look the same, hence the id element. This will overlap all unintentional changes.
+  The same goes for the anchor class elements. I decided to go for a visible color fot the link to be visible on the background image. */
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+
+p {
+  font-size: 15pt;
+  text-align: center;
+  background-color: black;
+}
+
+/* The above css codes are for the overall size and look of the text on the page. The color was set in the body style.
+  I centered all the text in order to successfully allign all the text. */
+
+#synopsis {
+  border: 3px orange solid;
+  padding: 0px 25px 25px 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+
+.float-image {
+  float: left;
+  height: 250px;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+/* To centrally encapsulate all elements in the synopsis, I gave them an ID and easily changed their appeance all-in-One.
+   I placed all images into a float element in order to easily edit them without ruining the other elements; I then contained
+   them into a border-box so they don't overlap the text they're next to. */
+
+#trailer {
+  border: 3px orange solid;
+  padding: 0px 25px 25px 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+.videotrailer{
+  margin: 500px 500px 500px 500px;
+  padding: 1500px;
+}
+
+/* To easily edit all the elements related to the trailer, I placed them in an ID and easily changed their appearance. As for the
+   video trailer, I singularly placed it into a class and edited it. I chose a class because I might want to upload multiple trailers
+   but that's not mandatory. */
+
+#actors {
+  border: 3px orange solid;
+  padding: 0px 25px 25px 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+.actors-text {
+  text-align: center;
+  background-color: black;
+}
+
+/* To easily edit all the elements related to the trailer, I placed them in an ID and easily changed their appearance. As for the
+   text about the actors, I singularly placed it into a class and edited them. */
